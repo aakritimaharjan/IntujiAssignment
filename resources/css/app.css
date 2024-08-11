@@ -1,0 +1,160 @@
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+.rbc-calendar {
+    font-family: 'Sora', sans-serif;
+}
+.app-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.add-event-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.popup-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup-form h2 {
+    margin-top: 0;
+}
+
+.popup-form input,
+.popup-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.popup-form button {
+    padding: 5px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-body input,
+.modal-body textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.save-button,
+.delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button {
+    background: #4caf50;
+    color: white;
+    margin-left: 10px;
+}
+
+.delete-button {
+    background: #f44336;
+    color: white;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.close-popup {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-size: 19px !important;
+    font-weight: bold;
+}

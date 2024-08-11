@@ -158,3 +158,13 @@ body {
     font-size: 19px !important;
     font-weight: bold;
 }
+.authorize-event-btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

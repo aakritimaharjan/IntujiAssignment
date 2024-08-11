@@ -42,8 +42,6 @@ const Sidebar = ({fetchEvents}) => {
         setIsModalOpen(false);
     };
 
-    
-
     return (
         <>
             <div className="sidebar">
@@ -52,6 +50,14 @@ const Sidebar = ({fetchEvents}) => {
                     setIsModalOpen(true);
                 }}>
                     Add New
+                </button>
+                <button
+                    className="authorize-event-btn"
+                    onClick={() => {
+                        window.location.href = "/auth/google";
+                    }}
+                    >
+                    Authorize First
                 </button>
                 <div className="filters">
                     <p>Filter</p>
